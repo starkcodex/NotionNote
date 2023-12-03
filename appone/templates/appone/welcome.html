@@ -1,0 +1,19 @@
+{% extends 'base.html' %}
+{% load static %}
+
+
+    {% block content %}
+
+
+        <div class="row">
+            <div class="col">
+                <div class="home-holder text-center">
+                    <h1 class="fs-3">Hello n Welcome to Muke Note Application!</h1>
+                    <p>Lead to a diffrent journey of Amazing Smart muke-tombapp.</p>
+                    <a href="{% url 'notes-list' %}" class="btn btn-success btn-sm">Go muke_note</a>
+                </div>
+            </div>
+        </div>
+
+
+    {% endblock %}
